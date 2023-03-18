@@ -6,7 +6,7 @@
  ## Data
  The dataset is split in to csv files for each year and an explanatory file. In the Jupyter Notebook 'Erasmus_Data_cleaning' thedata cleaning steps are explained. Some of the data is than pickled for further use. 
  
- In the Jupyter notebook 'Erasmus_Data_exploration' the data is analyzed and visually depicted. Some of the plots are also used for the medium blog post. If you are interested in how to inculde plotly plots in a medium blog post, this helped me: https://jennifer-banks8585.medium.com/how-to-embed-interactive-plotly-visualizations-on-medium-blogs-710209f93bd
+ In the Jupyter notebook 'Erasmus_Data_exploration' the data is analyzed and visually depicted. Some of the plots are also used for the medium blog post. If you are interested in how to inculde plotly plots in a medium blog post, this helped me: https://jennifer-banks8585.medium.com/how-to-embed-interactive-plotly-visualizations-on-medium-blogs-710209f93bd. My plots can also be found here: https://chart-studio.plotly.com/~Mahuvej#/
  
  ## Recommendation Engine
  The steps for the recommendation engine is explained in the notebook 'Erasmus_Data_recommendation'. It is based on a kNN algorithm with k = 5. As a evaluation metric Mean Reciprocal Rank (MRR) was choosen (https://en.wikipedia.org/wiki/Mean_reciprocal_rank). The current model recieves a MRR of 0.412 after more than 5 hours of testing.
