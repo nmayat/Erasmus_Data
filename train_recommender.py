@@ -70,7 +70,7 @@ preprocessor.fit(X_train)
 X_train = preprocessor.transform(X_train)
 X_test = preprocessor.transform(X_test)
 # Define the model
-model = NearestNeighbors(n_neighbors=5, algorithm='auto', metric='euclidean')
+model = NearestNeighbors(n_neighbors=5, algorithm='ball_tree', metric='euclidean')
 # Train the model on the training set
 model.fit(X_train)
 
