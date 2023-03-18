@@ -4,7 +4,7 @@
  The project cleans tha data, analyses it and creates a recommendation engine based on a kNN algorithm. It is acompanied by a Medium blog post which can be found here: https://medium.com/@nils_88771/where-you-should-do-your-erasmus-program-76421269c585
  
  ## Data
- The dataset is split in to csv files for each year and an explanatory file. In the Jupyter Notebook 'Erasmus_Data_cleaning' thedata cleaning steps are explained. Some of the data is than pickled for further use. 
+ Unfortunaly the datasets are abit to big so you need to donwnload them yourself from the webside provided above. Place the files in a directory called 'Erasmus_Data'. The dataset is split in to csv files for each year and an explanatory file. In the Jupyter Notebook 'Erasmus_Data_cleaning' thedata cleaning steps are explained. Some of the data is than pickled for further use. 
  
  In the Jupyter notebook 'Erasmus_Data_exploration' the data is analyzed and visually depicted. Some of the plots are also used for the medium blog post. If you are interested in how to inculde plotly plots in a medium blog post, this helped me: https://jennifer-banks8585.medium.com/how-to-embed-interactive-plotly-visualizations-on-medium-blogs-710209f93bd. My plots can also be found here: https://chart-studio.plotly.com/~Mahuvej#/
  
@@ -16,4 +16,4 @@
  - Creating a web app for easier input:
    - Could include filtered inputs to choose features for recommendation
    - Differen plots. Maybe also with plots about different countries which user can choose
- - Different model. Maybe based on Deep Learning
+ - Different model. Maybe based on Deep Learning. 
