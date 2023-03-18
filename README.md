@@ -1,7 +1,7 @@
 # Erasmus_Data
 
  This is a project based on the data provided by the European Comission about the Erasmus+ project. The data can be found here https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en.
- The project cleans tha data, analyses it and creates a recommendation engine based on a kNN algorithm. It is acompanied by a Medium blog post which can be found here:
+ The project cleans tha data, analyses it and creates a recommendation engine based on a kNN algorithm. It is acompanied by a Medium blog post which can be found here: https://medium.com/@nils_88771/where-you-should-do-your-erasmus-program-76421269c585
  
  ## Data
  The dataset is split in to csv files for each year and an explanatory file. In the Jupyter Notebook 'Erasmus_Data_cleaning' thedata cleaning steps are explained. Some of the data is than pickled for further use. 
