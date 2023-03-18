@@ -11,13 +11,16 @@ the requirements can be found in the requirements.txt
  
  ## Recommendation Engine
  The steps for the recommendation engine is explained in the notebook 'Erasmus_Data_recommendation'. It is based on a kNN algorithm with k = 5. As a evaluation metric Mean Reciprocal Rank (MRR) was choosen (https://en.wikipedia.org/wiki/Mean_reciprocal_rank). The current model recieves a MRR of 0.412 after more than 5 hours of testing.
+
+### Problems with hyperparameter tuning
+Since kNN algorithms are saved with their data space in order to determine the nearest neighbours I was not able to performe a Grid Search since I could not allocate enough memory. I tried a few combinations by hand and decided for the 'ball_tree' algorithm with the minkowski metric.
  
  ## Further Features
  - Parallising the testing process for more speed
  - Creating a web app for easier input:
    - Could include filtered inputs to choose features for recommendation
    - Differen plots. Maybe also with plots about different countries which user can choose
- - Different model. Maybe based on Deep Learning. 
+ - Different model. Maybe based on Deep Learning. Or algorithm which ar not to memory intensive.
 
 ## Files
 Create_Data.py: Concatenates all the csv files and pickles the dataframe
