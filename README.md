@@ -17,3 +17,17 @@
    - Could include filtered inputs to choose features for recommendation
    - Differen plots. Maybe also with plots about different countries which user can choose
  - Different model. Maybe based on Deep Learning. 
+
+## Files
+Create_Data.py: Concatenates all the csv files and pickles the dataframe
+Clean_data.py/ Erasmus_Data_cleaning.ipynb: File which cleans the data. The steps are explained in the notebook.
+Erasmus_Data_cleaning.py/.ipynb: Exploring and Analysing the data. Creates different plots using plotly.
+train_recommender.py/ Erasmus_Data_recommendation.ipynb: Training the recommender. At the end there is an example use case. 
+
+## Acknowledgement
+
+Dataset from the European Commision: https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en
+
+## License 
+
+MIT License
